@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyFirstMavenProject" duration-ms="82588" started-at="2019-07-11T16:26:45Z" finished-at="2019-07-11T16:28:08Z">
+    <groups>
+    </groups>
+    <test name="TestCases" duration-ms="82588" started-at="2019-07-11T16:26:45Z" finished-at="2019-07-11T16:28:08Z">
+      <class name="com.FirstMaven.TestCases.TC_LoginTest_002">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.FirstMaven.TestCases.TC_LoginTest_002@7c30a502]" name="setUp" is-config="true" duration-ms="10987" started-at="2019-07-11T21:57:25Z" finished-at="2019-07-11T21:57:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_DDT(java.lang.String, java.lang.String)[pri:0, instance:com.FirstMaven.TestCases.TC_LoginTest_002@7c30a502]" name="Login_DDT" duration-ms="6409" started-at="2019-07-11T21:57:40Z" data-provider="LoginData" finished-at="2019-07-11T21:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr207830]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aqUzepU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_DDT -->
+        <test-method status="PASS" signature="Login_DDT(java.lang.String, java.lang.String)[pri:0, instance:com.FirstMaven.TestCases.TC_LoginTest_002@7c30a502]" name="Login_DDT" duration-ms="4492" started-at="2019-07-11T21:57:47Z" data-provider="LoginData" finished-at="2019-07-11T21:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mndr207831]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aqUzdpU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_DDT -->
+        <test-method status="PASS" signature="Login_DDT(java.lang.String, java.lang.String)[pri:0, instance:com.FirstMaven.TestCases.TC_LoginTest_002@7c30a502]" name="Login_DDT" duration-ms="5419" started-at="2019-07-11T21:57:51Z" data-provider="LoginData" finished-at="2019-07-11T21:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mndgd207832]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aqUzepU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_DDT -->
+        <test-method status="PASS" signature="Login_DDT(java.lang.String, java.lang.String)[pri:0, instance:com.FirstMaven.TestCases.TC_LoginTest_002@7c30a502]" name="Login_DDT" duration-ms="9782" started-at="2019-07-11T21:57:57Z" data-provider="LoginData" finished-at="2019-07-11T21:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr207830]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aqUzepU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_DDT -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.FirstMaven.TestCases.TC_LoginTest_002@7c30a502]" name="teardown" is-config="true" duration-ms="1454" started-at="2019-07-11T21:58:06Z" finished-at="2019-07-11T21:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.FirstMaven.TestCases.TC_LoginTest_002 -->
+      <class name="com.FirstMaven.TestCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.FirstMaven.TestCases.TC_LoginTest_001@58ceff1]" name="setUp" is-config="true" duration-ms="27725" started-at="2019-07-11T21:56:47Z" finished-at="2019-07-11T21:57:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.FirstMaven.TestCases.TC_LoginTest_001@58ceff1]" name="LoginTest" duration-ms="8735" started-at="2019-07-11T21:57:15Z" finished-at="2019-07-11T21:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.FirstMaven.TestCases.TC_LoginTest_001@58ceff1]" name="teardown" is-config="true" duration-ms="1290" started-at="2019-07-11T21:57:23Z" finished-at="2019-07-11T21:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.FirstMaven.TestCases.TC_LoginTest_001 -->
+    </test> <!-- TestCases -->
+  </suite> <!-- MyFirstMavenProject -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyFirstMavenProject" >
+<listeners>
+<listener class-name = "com.FirstMaven.Utilities.Reporting"/>
+</listeners>
+  <test name="TestCases">
+  <parameter name ="browser" value ="chrome" />
+    <classes>
+      <class name="com.FirstMaven.TestCases.TC_LoginTest_001"/>
+      <class name="com.FirstMaven.TestCases.TC_LoginTest_002"/>
+    </classes>
+  </test> <!-- TestCases -->
+</suite> <!-- MyFirstMavenProject -->
